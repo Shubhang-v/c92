@@ -1,0 +1,83 @@
+.body
+{
+    background: lightblue;
+}
+#login_div1
+{
+    margin-left: 650px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+#login_div2
+{
+    margin-left: 650px;
+    border-radius: 20px;
+}
+hr{
+    color: blue;
+    height: 15px;
+    width: 30%;
+    margin: 10px 0  1px 0;
+}
+#img
+{
+    margin-left: 150px;
+    width: 100%;
+    position: fixed;
+}
+img
+{
+    border-radius: 20px;
+}
+#title
+{
+    margin-left: 55px;
+    color:cornflowerblue;
+}
+#heading
+{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#login_button
+{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 70px;
+    width: 30%;
+}
+#number1_inp
+{
+    width: 70%;
+}
+#number2_inp
+{
+    width: 70%;
+}
+#output
+{
+    background: aliceblue;
+    border-radius: 10px;
+    border-top: 10px solid rgba(80, 209, 252, 0.849);
+    padding: 10px;
+    float: none;
+    text-align: left;
+    width: 30%;
+}
+#send_btn
+{
+    width: 20%;
+    height: fit-content;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#player1_name
+{
+    display: inline-block;
+}
+#player2_name
+{
+    display: inline-block;
+}

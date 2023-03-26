@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maths Quiz</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+    <body class="body">
+        <center>
+            <h1 id="heading" class="btn btn-info">Maths Quiz Game</h1>
+            <hr>
+        </center>
+       
+        <br>
+        <div id="img">
+            <h1 id="title"><b><u> Login :- </u></b></h1>
+            <img src="images.png" height="250" width="250">
+        </div>
+
+        <div class="col-lg-4 col-sm-8 col-xs-8 btn btn-info" id="login_div1">
+            <h2>Player 1 Login For The Game</h2>
+            <label>User Name:</label>
+            <input type="text" placeholder="Player 1 Name" id="login1" class="form-control">
+            <br>
+        </div>
+        <br><br>
+
+        <div class="col-lg-4 col-sm-8 col-xs-8 btn btn-info" id="login_div2">
+            <h2>Player 2 Login For The Game</h2>
+            <label>User Name:</label>
+            <input type="text" placeholder="Player 2 Name" id="login2" class="form-control">
+            <br>
+        </div>
+        <button class = "btn btn-primary  form-control" id="login_button" onclick="login()">Login</button>
+    </body>
+    <script src="main.js"></script>
+</html>
